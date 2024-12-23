@@ -170,3 +170,171 @@
 
 57. **`shutdown`**: Sistemi kapatır.  
     Örnek: `sudo shutdown now`
+---
+1. **`cat`**: Dosya içeriğini görüntüler veya birleştirir.  
+   Örnek: `cat dosya.txt`
+
+2. **`head`**: Dosyanın baş kısmını görüntüler.  
+   Örnek: `head -n 5 dosya.txt`
+
+3. **`tail`**: Dosyanın son kısmını görüntüler.  
+   Örnek: `tail -n 5 dosya.txt`
+
+4. **`more` / `less`**: Dosya içeriğini sayfa sayfa gösterir.  
+   Örnek: `more dosya.txt` veya `less dosya.txt`
+
+5. **`nano` / `vi`**: Metin düzenleyici açar.  
+   Örnek: `nano dosya.txt` veya `vi dosya.txt`
+
+6. **`cp`**: Dosya veya dizinleri kopyalar.  
+   Örnek: `cp kaynak.txt hedef.txt`
+
+7. **`mv`**: Dosya veya dizin taşır veya yeniden adlandırır.  
+   Örnek: `mv dosya.txt yeniad.txt`
+
+8. **`rm`**: Dosya veya dizin siler.  
+   Örnek: `rm dosya.txt`
+
+9. **`touch`**: Yeni bir dosya oluşturur.  
+   Örnek: `touch yeni_dosya.txt`
+
+10. **`find`**: Dosya veya dizin arar.  
+    Örnek: `find / -name dosya.txt`
+
+11. **`grep`**: Metin içinde arama yapar.  
+    Örnek: `grep "kelime" dosya.txt`
+
+12. **`wc`**: Kelime, satır ve karakter sayısını verir.  
+    Örnek: `wc dosya.txt`
+
+13. **`ls`**: Dizin içeriğini listeler.  
+    Örnek: `ls -l`
+
+14. **`cd`**: Dizin değiştirir.  
+    Örnek: `cd /home/kullanici`
+
+15. **`pwd`**: Geçerli dizini gösterir.  
+    Örnek: `pwd`
+
+16. **`mkdir`**: Yeni bir dizin oluşturur.  
+    Örnek: `mkdir yenidizin`
+
+17. **`rmdir`**: Boş dizin siler.  
+    Örnek: `rmdir bosdizin`
+
+18. **`tar`**: Dosya veya dizinleri sıkıştırır veya açar.  
+    Örnek: `tar -cvf arşiv.tar dizin`
+
+19. **`zip` / `unzip`**: Dosyaları sıkıştırır veya açar.  
+    Örnek: `zip dosya.zip dosya.txt` veya `unzip dosya.zip`
+
+20. **`chown`**: Dosya sahibini değiştirir.  
+    Örnek: `sudo chown kullanıcı dosya.txt`
+
+21. **`chmod`**: Dosya izinlerini değiştirir.  
+    Örnek: `chmod 755 dosya.txt`
+
+22. **`cpio`**: Dosya arşivleri oluşturur veya çıkarır.  
+    Örnek: `find . -print | cpio -ov > arşiv.cpio`
+
+23. **`ln`**: Bağlantı (link) dosyaları oluşturur.  
+    Örnek: `ln -s hedef sembolik_ad`
+
+24. **`file`**: Dosya türünü gösterir.  
+    Örnek: `file dosya.txt`
+
+25. **`stat`**: Dosya durumu ve özelliklerini görüntüler.  
+    Örnek: `stat dosya.txt`
+
+26. **`md5sum` / `sha256sum`**: Dosya özeti oluşturur.  
+    Örnek: `md5sum dosya.txt`
+
+27. **`wget` / `curl`**: Dosya indirir veya URL'den veri alır.  
+    Örnek: `wget http://site.com/dosya.zip` veya `curl http://site.com`
+
+28. **`ifconfig`**: Ağ bağlantılarını gösterir.  
+    Örnek: `ifconfig`
+
+29. **`ping`**: Bağlantı testi yapar.  
+    Örnek: `ping google.com`
+
+30. **`clear`**: Terminal ekranını temizler.  
+    Örnek: `clear`
+
+31. **`man`**: Komutun kullanım kılavuzunu gösterir.  
+    Örnek: `man ls`
+
+32. **`top`**: Sistem kaynaklarını ve süreçleri gösterir.  
+    Örnek: `top`
+
+33. **`ps`**: Çalışan süreçleri listeler.  
+    Örnek: `ps -aux`
+
+34. **`kill`**: Süreç sonlandırır.  
+    Örnek: `kill 1234`
+
+35. **`df`**: Disk kullanımını gösterir.  
+    Örnek: `df -h`
+
+36. **`du`**: Dizinlerin disk kullanımını gösterir.  
+    Örnek: `du -sh dizin`
+
+37. **`ssh`**: Uzak sunucuya bağlanır.  
+    Örnek: `ssh kullanıcı@sunucu`
+
+38. **`apt-get`**: Paket yönetimi yapar.  
+    Örnek: `sudo apt-get install paket`
+
+39. **`reboot`**: Sistemi yeniden başlatır.  
+    Örnek: `sudo reboot`
+
+40. **`shutdown`**: Sistemi kapatır.  
+    Örnek: `sudo shutdown now`
+
+41. **`nmap`**: Ağ taraması yapar.  
+    Örnek: `nmap 192.168.1.1`
+
+42. **`netstat`**: Ağ bağlantılarını gösterir.  
+    Örnek: `netstat -tuln`
+
+43. **`arp`**: ARP tablolarını gösterir.  
+    Örnek: `arp -a`
+
+44. **`iwconfig`**: Kablosuz ağ ayarlarını gösterir.  
+    Örnek: `iwconfig`
+
+45. **`aircrack-ng`**: Kablosuz şifre kırma yapar.  
+    Örnek: `aircrack-ng dosya.cap`
+
+46. **`hydra`**: Parola deneme saldırısı yapar.  
+    Örnek: `hydra -l kullanıcı -P şifreler.txt sunucu ssh`
+
+47. **`john`**: Parola kırma işlemi yapar.  
+    Örnek: `john hash.txt`
+
+48. **`gpg`**: Dosya şifreleme ve şifre çözme yapar.  
+    Örnek: `gpg -c dosya.txt`
+
+49. **`nc`**: Port dinleme veya veri transferi yapar.  
+    Örnek: `nc -lvp 1234`
+
+50. **`ettercap`**: Ağ saldırı ve izleme aracı.  
+    Örnek: `ettercap -T -q -i eth0`
+
+51. **`tcpdump`**: Ağ trafiğini yakalar.  
+    Örnek: `tcpdump -i eth0`
+
+52. **`wireshark`**: Ağ trafiği analiz eder (grafik arayüz).  
+    Örnek: GUI üzerinden kullanılır.
+
+53. **`msfconsole`**: Metasploit Framework ile güvenlik testi yapar.  
+    Örnek: `msfconsole`
+
+54. **`sqlmap`**: SQL enjeksiyon testi yapar.  
+    Örnek: `sqlmap -u "http://site.com?id=1" --dbs`
+
+55. **`openvas`**: Ağ zafiyet taraması yapar.  
+    Örnek: GUI üzerinden kullanılır.
+
+56. **`history`**: Komut geçmişini gösterir.  
+    Örnek: `history`
