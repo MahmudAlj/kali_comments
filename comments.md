@@ -338,3 +338,7 @@
 
 56. **`history`**: Komut geçmişini gösterir.  
     Örnek: `history`
+
+
+
+
