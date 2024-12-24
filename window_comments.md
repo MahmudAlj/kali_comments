@@ -174,6 +174,146 @@
 
     - Açıklama: Bir CSV dosyasını okur.
     - Örnek: `Import-Csv -Path C:\Processes.csv`
+---
 
+### 1. **Get-Help**
+- Açıklama: Komutlar hakkında yardım alır.
+- Örnek: `Get-Help Get-Process`
 
+### 2. **Get-Command**
+- Açıklama: Mevcut komutların listesini gösterir.
+- Örnek: `Get-Command`
 
+### 3. **Get-Process**
+- Açıklama: Çalışan işlemleri listeler.
+- Örnek: `Get-Process`
+
+### 4. **Stop-Process**
+- Açıklama: Bir işlemi durdurur.
+- Örnek: `Stop-Process -Name notepad`
+
+### 5. **Start-Process**
+- Açıklama: Yeni bir işlem başlatır.
+- Örnek: `Start-Process notepad.exe`
+
+### 6. **Get-Service**
+- Açıklama: Hizmetlerin durumunu görüntüler.
+- Örnek: `Get-Service`
+
+### 7. **Start-Service**
+- Açıklama: Bir hizmeti başlatır.
+- Örnek: `Start-Service -Name Spooler`
+
+### 8. **Stop-Service**
+- Açıklama: Bir hizmeti durdurur.
+- Örnek: `Stop-Service -Name Spooler`
+
+### 9. **Get-Location**
+- Açıklama: Mevcut çalışma dizinini gösterir.
+- Örnek: `Get-Location`
+
+### 10. **Set-Location**
+- Açıklama: Çalışma dizinini değiştirir.
+- Örnek: `Set-Location -Path C:\Example`
+
+### 11. **Get-ChildItem**
+- Açıklama: Bir dizindeki dosya ve klasörleri listeler.
+- Örnek: `Get-ChildItem`
+
+### 12. **New-Item**
+- Açıklama: Yeni bir dosya veya klasör oluşturur.
+- Örnek: `New-Item -Path C:\Example -ItemType Directory`
+
+### 13. **Remove-Item**
+- Açıklama: Bir dosya veya klasörü siler.
+- Örnek: `Remove-Item -Path C:\Example`
+
+### 14. **Copy-Item**
+- Açıklama: Dosyaları kopyalar.
+- Örnek: `Copy-Item -Path C:\file.txt -Destination D:\Backup`
+
+### 15. **Move-Item**
+- Açıklama: Dosyaları taşır.
+- Örnek: `Move-Item -Path C:\file.txt -Destination D:\Backup`
+
+### 16. **Rename-Item**
+- Açıklama: Bir dosyayı yeniden adlandırır.
+- Örnek: `Rename-Item -Path C:\file.txt -NewName renamed.txt`
+
+### 17. **Test-Path**
+- Açıklama: Bir dosyanın varlığını kontrol eder.
+- Örnek: `Test-Path -Path C:\file.txt`
+
+### 18. **Get-Content**
+- Açıklama: Bir dosyanın içeriğini okur.
+- Örnek: `Get-Content -Path C:\file.txt`
+
+### 19. **Set-Content**
+- Açıklama: Dosyaya yeni içerik yazar.
+- Örnek: `Set-Content -Path C:\file.txt -Value "Hello"`
+
+### 20. **Add-Content**
+- Açıklama: Dosyanın sonuna içerik ekler.
+- Örnek: `Add-Content -Path C:\file.txt -Value "New Line"`
+
+### 21. **Clear-Content**
+- Açıklama: Bir dosyanın içeriğini temizler.
+- Örnek: `Clear-Content -Path C:\file.txt`
+
+### 22. **Out-File**
+- Açıklama: Komut çıktısını bir dosyaya kaydeder.
+- Örnek: `Get-Process | Out-File -FilePath C:\processes.txt`
+
+### 23. **Get-Date**
+- Açıklama: Geçerli tarihi ve saati gösterir.
+- Örnek: `Get-Date`
+
+### 24. **Write-Output**
+- Açıklama: Konsola çıktı yazdırır.
+- Örnek: `Write-Output "Merhaba Dünya"`
+
+### 25. **Read-Host**
+- Açıklama: Kullanıcıdan giriş alır.
+- Örnek: `Read-Host "Adınızı girin"`
+
+### 26. **Get-Alias**
+- Açıklama: Komutların kısaltmalarını listeler.
+- Örnek: `Get-Alias`
+
+### 27. **Set-Alias**
+- Açıklama: Kendi kısaltmanızı oluşturur.
+- Örnek: `Set-Alias ll Get-ChildItem`
+
+### 28. **Get-Variable**
+- Açıklama: Tanımlı değişkenleri gösterir.
+- Örnek: `Get-Variable`
+
+### 29. **Set-Variable**
+- Açıklama: Yeni bir değişken tanımlar.
+- Örnek: `Set-Variable -Name myVar -Value 42`
+
+### 30. **Remove-Variable**
+- Açıklama: Bir değişkeni kaldırır.
+- Örnek: `Remove-Variable -Name myVar`
+
+### 31. **Measure-Object**
+- Açıklama: Bir nesnenin özelliklerini ölçer.
+- Örnek: `Get-ChildItem | Measure-Object`
+
+### 32. **Where-Object**
+- Açıklama: Belirli bir koşula uyan nesneleri filtreler.
+- Örnek: `Get-Process | Where-Object {$_.CPU -gt 100}`
+
+### 33. **Sort-Object**
+- Açıklama: Nesneleri sıralar.
+- Örnek: `Get-Process | Sort-Object -Property CPU`
+
+### 34. **ForEach-Object**
+- Açıklama: Her nesne için bir işlem gerçekleştirir.
+- Örnek: `Get-Process | ForEach-Object {$_.Name}`
+
+### 35. **Exit**
+- Açıklama: PowerShell oturumunu kapatır.
+- Örnek: `Exit`
+
+---
