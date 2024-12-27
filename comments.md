@@ -342,3 +342,5 @@
 
 
 
+benimkiler 
+cd ~ = butun konumlardan cıkar home'a gider
