@@ -316,4 +316,9 @@
 - Açıklama: PowerShell oturumunu kapatır.
 - Örnek: `Exit`
 
+### 36. **Get-ChildItem** 
+- Açıklama: bir dosyanin konumunu bulur.
+- Örnek: Get-ChildItem -Path C:\ -Recurse -Filter "dosyaadi.txt"
+
+
 ---
