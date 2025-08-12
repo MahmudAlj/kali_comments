@@ -344,3 +344,8 @@
 
 benimkiler 
 cd ~ = butun konumlardan cıkar home'a gider
+
+
+
+kullanici adi = kali 
+şifre = maho
