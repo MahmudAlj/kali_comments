@@ -22,9 +22,9 @@ ctrl + H    = backspace tusu gibi sola dogru karakterleri siler
 
 
 
-shift + "  -> ~            shift + Ğ  -> {            Ğ -> [                                                                                          
-shift + 1  -> !            shift + Ü  -> }            Ü -> ]                                                                                             
-shift + 2  -> @            shift + Ş  -> :            Ş -> ;                                                                
+shift + "  -> ~            shift + Ğ  -> {            Ğ -> [
+shift + 1  -> !            shift + Ü  -> }            Ü -> ]                                
+shift + 2  -> @            shift + Ş  -> :            Ş -> ;       
 shift + 3  -> #            shift + İ  -> "            İ -> '                     
 shift + 4  -> $            shift + ,  -> |            , -> \                    
 shift + 5  -> %            shift + Ö  -> <            Ö -> ,                                   
@@ -32,6 +32,6 @@ shift + 6  -> ^            shift + Ç  -> >            Ç -> .
 shift + 7  -> &            shift + .  -> ?            . -> /                     
 shift + 8  -> *                  "    -> '                             
 shift + 9  -> (                  *    -> -                                           
-shift + 0  -> )                  -    -> =                                                                           
-shift + *  -> _                  <    -> <                                                                               
-shift + -  -> +            shif +  <  -> >                                                                   
+shift + 0  -> )                  -    -> =                                                
+shift + *  -> _                  <    -> <                                     
+shift + -  -> +            shif +  <  -> >
