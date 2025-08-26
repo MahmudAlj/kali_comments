@@ -83,6 +83,9 @@ Bu depo, **Windows PowerShell komutları**, **Windows ağ (Wi‑Fi) komutları**
 
 ---
 
-## 📄 Lisans
+## 👤 Yazar
 
-Bu repo bir not arşividir. Lisans tercihi belirtilmemiştir; isterseniz kök dizine `LICENSE` dosyası ekleyerek **MIT** veya tercih ettiğiniz başka bir lisansı seçebilirsiniz.
+[@MahmudAlj](https://github.com/MahmudAlj)
+
+---
+
